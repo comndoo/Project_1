@@ -1,3 +1,8 @@
+body{
+    font-family: arial ,sans-serif;
+    margin: 0;
+    padding: 0;
+}
 .frame{
     display: flex;
     gap: 10px;
@@ -12,4 +17,38 @@
     gap: 10px;
     align-items: center;
     justify-content: center;
+}
+header{
+    text-align: center;
+    background-color: #633fbd;
+    color: #ffffff;
+    padding: 1rem;
+    
+}
+header h1{
+    margin: 0;
+    font-size: 2rem;
+
+}
+header p{
+    margin: 0;
+    font-size: 1rem;
+}
+header nav{
+    padding: 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 1rem;
+}
+nav ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav ul li a:hover{
+    color: rgb(221, 231, 40);
 }
